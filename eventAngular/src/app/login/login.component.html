@@ -1,0 +1,17 @@
+<!-- add css class .login-container for login container -->
+<div class="login-container">
+    <!-- add css class .login-header for login header -->
+    <h1 class="login-header" style="width: 50%; max-width: 30%; margin: 0 auto; color: rgb(0, 255, 0);">Event Management Login</h1>
+    <!-- add css class .login-form for login form -->
+    <form class="login-form" style="width: 50%; max-width: 30%; margin: 0 auto; background-color: rgb(215, 230, 173);">
+        <!-- add css class .input-field for input type text and password -->        
+        <!-- add marging left to 10% for input type text and passowrd  -->
+        <input type="text" id="usernameId" name="usernm" class="input-field" placeholder="Username" style="margin-top: 10%; margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+        <input type="password" id="passwordId" name="passwordnm" class="input-field" placeholder="Password" style="margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+        <!-- add css class .login-button for login button -->
+        <button (click)="login()" type="button" class="login-button" style="margin-bottom: 10%; margin-left: 10%; width: 75%;">Login</button>
+        <!-- add css class .signup-button to Register button  -->
+        <button (click)="register()" type="button" class="signup-button" style="margin-bottom: 10%; margin-left: 10%; width: 75%; background-color: rgb(190, 72, 72);" >Register</button>
+        <!-- <a routerLink="/register" style="margin-left: 10%; width: 75%; display: block; text-align: center;">New User? Register here</a> -->
+    </form>
+</div>

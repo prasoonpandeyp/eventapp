@@ -1,0 +1,53 @@
+/* FILEPATH: /c:/Users/Administrator/Angular/event-manage/src/app/app.component.html */
+  /* BEGIN: bg-image-css */
+  .login-container {
+    background-image: url('../../assets/eventManagement.jfif');
+    background-size: cover;
+    background-position: center;
+    /* Add any other background properties as needed */
+  }
+  /* END: bg-image-css */
+// create css for buttons similar to instagram design
+.login-button {
+  width: 100%;
+  height: 40px;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+  &:hover {
+    background-color: #0095f6;
+  }
+}
+//create design for sign up button similar to instagram design
+.signup-button {
+  width: 100%;
+  height: 40px;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+  &:hover {
+    background-color: #0095f6;
+  }
+}
+//create design for input fields similar to instagram design
+.input-field {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+}

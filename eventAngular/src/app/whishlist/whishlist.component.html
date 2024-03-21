@@ -1,0 +1,31 @@
+<!-- devide this HTML Page side by Side -->
+<!-- add background light color for this div -->
+<div class="container" style="background-color: lightgray;"></div>
+  <div class="row">
+    <!-- add border in bold and dark -->    
+    <div class="col-md-6" style="position: fixed; left: 20%; border: 5% solid black; font-weight: bold; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+      <h2>Whishlist</h2>
+      <div *ngFor="let evt of events">
+        <!-- add border of color RED for class card -->
+        <div class="card" style="border: 3% solid red;">
+          <div class="card-body">
+            <h5 class="card-title">{{evt.name}}</h5>
+            <p class="card-text">{{evt.desc}}</p>
+            <a href="#" class="btn btn-primary" (click)="addToCart(evt)">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6" style="position: fixed; right: 20%; border: 5% solid black; font-weight: bold; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+      <h2>Cart</h2>
+      <div *ngFor="let evt of wishlist">
+        <div class="card" style="border: 3% solid green;">
+          <div class="card-body">
+            <h5 class="card-title">{{evt.name}}</h5>
+            <p class="card-text">{{evt.desc}}</p>
+            <a href="#" class="btn btn-primary" (click)="removeEvt(evt)">Remove from Cart</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>

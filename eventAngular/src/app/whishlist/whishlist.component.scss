@@ -1,0 +1,91 @@
+
+
+
+//CSS for whishlist components of grid and list view
+// css for image making it logo purpose
+.whishlistLogo {
+  width: 10%;
+  height: 10%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.whishlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .whishlistName {
+    width: 48%;
+    margin-bottom: 20px;
+    .whishlistDT {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 10px;
+    }
+    .whishlistLocation {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .whishlistDesc {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }    
+    .whishlistAddBtn {
+      padding: 10px 20px;
+      background-color: #17a055;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+// css for div making it side by side
+.whishlistGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .whishlistGridName {
+    width: 48%;
+    margin-bottom: 20px;
+    .whishlistGridDT {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 10px;
+    }
+    .whishlistGridLocation {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .whishlistGridDesc {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .whishlistGridAddBtn {
+      padding: 10px 20px;
+      background-color: #17a055;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+}

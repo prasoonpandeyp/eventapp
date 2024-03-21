@@ -1,0 +1,17 @@
+<!--  add registration form includinginput type userName, Password, EmailId and Mobile Number -->
+<!-- add css class .signup-container for signup container -->
+<div class="signup-container">
+    <!-- add css class .signup-form for signup form -->
+    <!-- add formGroup tag for Form -->
+<form class="signup-form" [formGroup]="signUpModel" id="signUp-form" style="width: 50%; max-width: 30%; margin: 0 auto; background-color: lightblue;" onsubmit="signUp()">
+            <!-- add css class .input-field for input type text and password -->
+            <!-- add marging left to 10% for input type text and passowrd  -->
+            <input type="text" formControlName="username" id="signUsername" class="input-field" placeholder="Username" style="margin-top: 10%; margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+            <input type="password"  formControlName="password" id="signPassword" class="input-field" placeholder="Password" style="margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+            <input type="email" formControlName="email" class="input-field" id="signEmail" placeholder="Email" style="margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+            <input type="text" formControlName="mobile" class="input-field" id="signMobile" placeholder="Mobile Number" style="margin-bottom: 10%; margin-left: 10%; width: 75%;" required>
+            <!-- add css class .signup-button for signup button -->
+            <button type="button" class="signup-button" style="margin-bottom: 10%; margin-left: 10%; width: 75%;">Register</button>
+            <button type="button" class="signup-button" style="margin-bottom: 10%; margin-left: 10%; width: 75%;" (click)="clear()">Clear</button>
+        </form>
+</div>
